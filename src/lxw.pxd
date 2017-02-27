@@ -42,7 +42,7 @@ cdef extern from "../libxlsxwriter/src/workbook.c" nogil:
     void lxw_workbook_free(lxw_workbook *workbook);
 
 
-cdef extern from "../libxlsxwriter/include/xlsxwriter/worksheet.h":
+cdef extern from "../libxlsxwriter/include/xlsxwriter/worksheet.h" nogil:
     ctypedef struct lxw_row_col_options:
         pass
 
