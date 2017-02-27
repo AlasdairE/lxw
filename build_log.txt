@@ -1,0 +1,7 @@
+Compiling src\_lxw.pyx because it depends on src\_lxw.pxd.
+[1/1] Cythonizing src\_lxw.pyx
+running build_ext
+building 'src._lxw' extension
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\amd64\cl.exe /c /nologo /Ox /MD /W3 /GS- /DNDEBUG -IC:\Anaconda\include -IC:\Anaconda\PC /Tcsrc\_lxw.c /Fobuild\temp.win-amd64-2.7\Release\src\_lxw.obj
+_lxw.c
+i:\alasdair.eaglestone\python\quantipy\excel\lxw\src\../libxlsxwriter/src/worksheet.c(12): fatal error C1083: Cannot open include file: 'xlsxwriter/xmlwriter.h': No such file or directory
